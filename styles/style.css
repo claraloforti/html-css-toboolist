@@ -17,14 +17,13 @@ header {
 }
 
 .logo-header {
-    margin: 10px;
+    margin: 5px 0px 5px 20px;
 }
 
 h1 {
-    display: inline;
-    vertical-align: 0.5em;
-    font-size: 3rem;
-    padding: 10px;
+    display: inline-block;
+    vertical-align: 1rem;
+    font-size: 2.5rem;
 }
 
 /* Bottoni */
