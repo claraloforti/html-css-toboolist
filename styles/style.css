@@ -5,9 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(128, 128, 128, 0.227);
+}
+
+
+/* Header */
 header {
     background-color: white;
-    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .logo-header {
@@ -21,26 +27,10 @@ h1 {
     padding: 10px;
 }
 
-body {
-    background-color: rgba(128, 128, 128, 0.227);
-    height: 10px;
-}
-
-main {
-    background-color: white;
-    padding-left: 50px;
-    padding-top: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
-    height: 1000px;
-}
-
+/* Bottoni */
 .add-task-button {
     color: white;
     background-color: rgb(27, 154, 245);
-    border-radius: 5px;
     border-color: rgb(27, 154, 245);
     padding: 5px;
 }
@@ -53,10 +43,24 @@ main {
     padding: 5px;
 }
 
-.bottoni {
-    border-bottom: 3px solid rgba(128, 128, 128, 0.227);
+/* Sezioni */
+.sezione-bottoni {
+    padding: 10px 40px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.227);
 }
 
+.sezione-lista {
+    padding: 20px 20px;
+}
+
+.sezione-bottoni, .sezione-lista {
+    margin: 0px 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* Lista */
 ul {
     list-style-type: none;
     line-height: 1.5em;
@@ -65,7 +69,6 @@ ul {
 h3 {
     margin-top: 30px;
 }
-
 
 /*Lables*/
 
