@@ -66,3 +66,41 @@ ul {
 h3 {
     margin-top: 30px;
 }
+
+
+/*Lables*/
+
+label {
+color: white;
+font-size: 8px;
+border-radius: 10px;
+padding: 6px; 
+}
+
+.editorial-lable {
+color: white;
+font-size: 8px;
+background-color: rgb(75, 175, 225);
+border-radius: 10px;
+padding: 6px;
+}
+
+.q1-goals-lable {
+background-color: rgb(166, 99, 229);
+}
+
+.recruiting-lable {
+background-color: rgb(109, 196, 173);
+}
+
+.mobile-lable {
+background-color: rgb(211, 146, 25);
+}
+
+.website-lable {
+background-color: rgb(225, 75, 157);
+}
+
+.sales-lable {
+background-color: rgb(150, 225, 75);
+}
