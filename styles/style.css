@@ -30,18 +30,20 @@ h1 {
 /* Bottoni */
 .add-task-button {
     color: white;
-    background-color: rgb(27, 154, 245);
+    background-color: rgb(75, 175, 225);
     border-radius: 5px;
-    border-color: rgb(27, 154, 245);
+    border: 1px solid rgb(75, 175, 225);
     padding: 5px;
+    font-size: 10px;
 }
 
 .add-section-button {
     color: rgba(128, 128, 128, 0.362);
     background-color: white;
     border-radius: 5px;
-    border-color: rgba(128, 128, 128, 0.362);
+    border: 1px solid rgba(128, 128, 128, 0.362);
     padding: 5px;
+    font-size: 10px;
 }
 
 /* Sezioni */
