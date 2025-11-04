@@ -9,7 +9,6 @@ body {
     background-color: rgba(128, 128, 128, 0.227);
 }
 
-
 /* Header */
 header {
     background-color: white;
@@ -31,31 +30,32 @@ h1 {
 .add-task-button {
     color: white;
     background-color: rgb(27, 154, 245);
+    border-radius: 5px;
     border-color: rgb(27, 154, 245);
     padding: 5px;
 }
 
 .add-section-button {
-    color: grey;
+    color: rgba(128, 128, 128, 0.362);
     background-color: white;
     border-radius: 5px;
-    border-color: grey;
+    border-color: rgba(128, 128, 128, 0.362);
     padding: 5px;
 }
 
 /* Sezioni */
+
 .sezione-bottoni {
     padding: 10px 40px;
     border-bottom: 2px solid rgba(128, 128, 128, 0.227);
 }
 
 .sezione-lista {
-    padding: 20px 20px;
+    padding: 10px 40px;
 }
 
 .sezione-bottoni, .sezione-lista {
     margin: 0px 300px;
-    border-radius: 10px;
     background-color: white;
 }
 
@@ -63,11 +63,11 @@ h1 {
 /* Lista */
 ul {
     list-style-type: none;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 h3 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /*Lables*/
@@ -88,7 +88,7 @@ label {
 }
 
 .q1-goals-lable {
-    background-color: rgb(166, 99, 229);
+    background-color: rgba(179, 113, 240, 0.952);
 }
 
 .recruiting-lable {
@@ -96,25 +96,33 @@ label {
 }
 
 .mobile-lable {
-    background-color: rgb(211, 146, 25);
+    background-color: rgb(226, 159, 33);
 }
 
 .website-lable {
-    background-color: rgb(225, 75, 157);
+    background-color: rgba(225, 75, 157, 0.845);
 }
 
 .sales-lable {
-    background-color: rgb(150, 225, 75);
+    background-color: rgba(150, 225, 75, 0.835);
 }
 
-.label-simbol {
+.label-check, .label-cross {
     font-size: 10px;
     text-align: center;
-    color: green;
     border-radius: 100%;
-    border: 1px solid green;
     height: 15px;
     width: 15px;
     line-height: 15px;
     display: inline-block;
+}
+
+.label-check {
+    color: green;
+    border: 1px solid green;
+}
+
+.label-cross {
+    color: red;
+    border: 1px solid red;
 }
