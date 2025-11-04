@@ -6,12 +6,12 @@
 }
 
 header {
-background-color: white;
-margin: 0 auto;
+    background-color: white;
+    margin: 0 auto;
 }
 
 .logo-header {
-margin: 10px;
+    margin: 10px;
 }
 
 h1 {
@@ -30,7 +30,7 @@ main {
     background-color: white;
     padding-left: 50px;
     padding-top: 10px;
-     margin-top: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 300px;
     margin-right: 300px;
@@ -54,12 +54,11 @@ main {
 }
 
 .bottoni {
-margin-bottom: 5px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.227);
 }
 
 ul {
     list-style-type: none;
-    border-top: 3px solid rgba(128, 128, 128, 0.227);
     line-height: 1.5em;
 }
 
@@ -71,36 +70,48 @@ h3 {
 /*Lables*/
 
 label {
-color: white;
-font-size: 8px;
-border-radius: 10px;
-padding: 6px; 
+    color: white;
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 6px;
 }
 
 .editorial-lable {
-color: white;
-font-size: 8px;
-background-color: rgb(75, 175, 225);
-border-radius: 10px;
-padding: 6px;
+    color: white;
+    font-size: 8px;
+    background-color: rgb(75, 175, 225);
+    border-radius: 10px;
+    padding: 6px;
 }
 
 .q1-goals-lable {
-background-color: rgb(166, 99, 229);
+    background-color: rgb(166, 99, 229);
 }
 
 .recruiting-lable {
-background-color: rgb(109, 196, 173);
+    background-color: rgb(109, 196, 173);
 }
 
 .mobile-lable {
-background-color: rgb(211, 146, 25);
+    background-color: rgb(211, 146, 25);
 }
 
 .website-lable {
-background-color: rgb(225, 75, 157);
+    background-color: rgb(225, 75, 157);
 }
 
 .sales-lable {
-background-color: rgb(150, 225, 75);
+    background-color: rgb(150, 225, 75);
+}
+
+.label-simbol {
+    font-size: 10px;
+    text-align: center;
+    color: green;
+    border-radius: 100%;
+    border: 1px solid green;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    display: inline-block;
 }
