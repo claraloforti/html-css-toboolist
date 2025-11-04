@@ -26,6 +26,14 @@ h1 {
     font-size: 2.5rem;
 }
 
+/*Main*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
 /* Bottoni */
 .add-task-button {
     color: white;
@@ -49,17 +57,12 @@ h1 {
 
 .sezione-bottoni {
     padding: 10px 40px;
+    /*Divisore grigio*/
     border-bottom: 2px solid rgba(128, 128, 128, 0.227);
 }
 
 .sezione-lista {
     padding: 10px 40px;
-}
-
-.sezione-bottoni,
-.sezione-lista {
-    margin: 0px 300px;
-    background-color: white;
 }
 
 
