@@ -1,0 +1,17 @@
+/* CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-header {
+margin: 10px;
+}
+
+.toboolist-title {
+    display: inline;
+    vertical-align: 0.5em;
+    font-size: 3rem;
+    padding: 10px;
+}
