@@ -85,7 +85,7 @@ label {
     padding: 6px;
 }
 
-.editorial-lable {
+.bg-blue {
     color: white;
     font-size: 8px;
     background-color: rgb(75, 175, 225);
@@ -93,23 +93,23 @@ label {
     padding: 6px;
 }
 
-.q1-goals-lable {
+.bg-violet {
     background-color: rgba(179, 113, 240, 0.952);
 }
 
-.recruiting-lable {
+.bg-green {
     background-color: rgb(109, 196, 173);
 }
 
-.mobile-lable {
+.bg-orange {
     background-color: rgb(226, 159, 33);
 }
 
-.website-lable {
+.bg-fucsia {
     background-color: rgba(225, 75, 157, 0.845);
 }
 
-.sales-lable {
+.bg-apple-green {
     background-color: rgba(150, 225, 75, 0.835);
 }
 
